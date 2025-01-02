@@ -1,4 +1,2 @@
 venv/
 .env
-bak.requirements.txt
-pip-local-requirements.txt
