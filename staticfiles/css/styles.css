@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;  /* Apply Roboto font to the entire page */
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for headings as well */
+    font-weight: 500;
+}
+
+.styled-link {
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.styled-link:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px;
+    gap: 20px;
+}
+
+.requirements {
+    color: #007BFF;
+}
+.sysinfo {
+    color: #707070;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.card {
+    flex: 1; 
+    max-width: 400px;
+    max-height: 60%;
+    font-family: 'Roboto';
+    font-size: small;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+
+}
+.column {
+    flex: 1;
+    min-width: 450px;
+    max-width: 450px;
+}
+.endpoints a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #007BFF;
+    margin-left: 20px;
+    list-style-position: inside;
+}
+
+.endpoints li {
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}
+.endpoints a:hover {
+    text-decoration: none;
+    display: block;
+    color: "007BFF";
+}
+
+.endpoints a:hover {
+    text-decoration: underline;
+}
+
