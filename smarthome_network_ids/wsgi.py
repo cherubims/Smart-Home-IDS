@@ -16,4 +16,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'smarthome_network_ids.settings'
 application = get_wsgi_application()
 
 # api/settings.py
-WSGI_APPLICATION = 'api.wsgi.app'
+WSGI_APPLICATION = 'smarthome_network_ids.wsgi.application'
